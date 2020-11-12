@@ -1,118 +1,70 @@
 body{
     margin: auto;
 }
+
 #logo{
-    margin: 10px 0px;
-    float: left;
-    width: 50%;
-}
-header{
-    overflow: hidden;
-}
-header span{
     color: rgb(194, 33, 167);
     font-size: 50px;
-    margin-left: 150px;
 }
-#link{
-    float: left;
-    width: 50%;
+
+nav a{
+    margin-left: 40px;
 }
-header ul {
-    list-style-type: none;
-    margin-left: 20px ;
-    margin-top: 29px;
-}
-header a{
-    text-decoration: none;
-    color: black;
-    margin-left: 30px;
-}
-header li {
-    display: inline;
-}
+
 #sign {
     border-radius: 25px;
     color: white;
-    padding: 10px 35px;
+    padding: 10px 40px;
     background-color: rgb(194, 33, 167);
     box-shadow: 4px 4px 4px 4px rgb(209, 205, 205);
 }
 
+.bg-overlay {
+    background: linear-gradient(rgba(196, 29, 168, 0.8),  rgba(196, 29, 168, 0.2)), url("section1.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 650px;
+    padding-top: 50px;
+}
 #section1{
-    background-color:  rgb(194, 33, 167);
-    position: relative;
+    margin-top: 75px;
 }
 
-#section1 img {
-    height: 650px;
-    width: 100%;
-    opacity: 0.5;
-}
 #section1 h2{
     font-size: 55px;
-    font-weight: normal;
     color:white;
-    position: absolute;
-    top: 22%;
-    left: 31%;
-    right: 31%
 }
 #section1 p{
-    position: absolute;
-    top: 40%;
-    left: 15%;
-    right: 15%;
-    text-align: center;
+    padding: 20px 0px 40px;
     color: white;
     font-size: 22px;
 }
 
 #section1 a{
-    position: absolute;
-    top: 58%;
-    left: 44%;
-    right: 43%;
     color: red;
-    text-decoration: none;
     border-radius: 25px;
     padding: 15px 42px;
     background-color: white;
     font-size: 14px;
 }
-#about{
-    overflow: hidden;
-}
-#about1{
-    float: left;
-    width: 50%;
-}
-#about2{
-    float: left;
-    width: 50%;
-}
-#about1 div{
-    margin: 150px;
-}
+
 #about1 h2{
-    margin: 0px;    
-    font-weight: normal;
     color:#ff0081;
     font-size: 55px;
 }
 #about1 p:first-child{
     font-size: 18px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 1px;
     color: grey;
 }
 #about p{
-    margin: 30px 0px 60px;
+    margin: 20px 0px 45px;
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 #about a{
-    margin-top: 10px;
     text-decoration: none;
     color: white;
     background-color:#ff0081;
@@ -120,10 +72,7 @@ header li {
     border-radius: 25px;
     font-size: 14px;
 }
-#abc {
-    margin: 180px 50px 135px;
-    position: relative;
-}
+
 #about2 img{
     height: 350px;
     width: 400px;
@@ -131,6 +80,9 @@ header li {
     border-bottom-right-radius: 170px;
     border-top-right-radius:170px;
     border-bottom-left-radius: 70px;
+}
+#abc {
+    position: relative;
 }
 #trans{
     border: 5px solid rgb(194, 33, 167); 
@@ -141,12 +93,12 @@ header li {
     border-bottom-right-radius: 170px;
     border-top-right-radius:170px;
     border-bottom-left-radius: 70px;
-    top: -15%;
-    left: 10%;
+    top: -48px;
+    left: 55px;
 }
+
 #part1{
-    overflow: hidden;
-    margin-bottom: 80px;
+    margin-bottom: 60px;
 }
 
 #main{
@@ -165,35 +117,18 @@ header li {
     font-size: 50px;
 }
 .sec{
-    float: left;
-    width: 33%;
     text-align: center;
-}
-.sec p{
-    margin-left: 80px;
-    margin-right: 80px;
 }
 .sec span{
     color: black;
     font-size: 30px;
 }
 
-#part2{
-    overflow: hidden;
-}
-#part21{
-    float: left;
-    width: 50%;
-}
-#part22{
-    float: left;
-    width: 50%;
-}
 #part22 div{
-    margin: 120px 240px 150px 50px; 
+    margin: 120px 100px 110px 50px; 
 }
 #abc2 {
-    margin: 150px 80px 120px 200px;
+    margin: 150px 0px 120px;
     position: relative;
 }
 #part21 img{
@@ -224,6 +159,7 @@ header li {
 #part22 h3{
     margin-top: 40px;
 }
+
 #about p{
     font-size: 18px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -233,21 +169,17 @@ header li {
     background-color: rgb(240, 233, 233);
 }
 #dashboard p:first-child{
+    margin-top: 80px;
     font-size: 18px;
     font-weight: bold;
     margin-bottom: 10px;
     color: grey;
 }
 
-#dashboard div{
-    padding: 100px 200px 60px;
-}
 #dashboard h1{
     color:#ff0081;
     font-size: 50px;
-    font-weight: normal;
     text-align: center;
-    margin: 0px 200px;
 }
 #dashboard img{
     margin-top: 60px;
@@ -257,15 +189,14 @@ header li {
 
 #dashboard p{
     text-align: center;
+    margin-bottom: 90px;
 }
 
 
 #reviews {
-    padding: 80px 100px 50px 100px;
-    overflow: hidden;
+    padding: 80px 0px 50px;
 }
 #reviews div{
-    overflow: hidden;
     text-align: center;
 }
 #reviews span{
@@ -282,9 +213,6 @@ header li {
 }
 
 .review1{
-    float: left;
-    width: 25%;
-    margin: 10px 47px;
     border-radius: 10px;
     box-shadow: 1px 1px 2px 2px grey;
 }
@@ -306,6 +234,7 @@ header li {
     margin-top: 5px;
     margin-bottom: 80px;
 }
+
 #sign1{
     background-image: linear-gradient(45deg, #ff0081, #e400ff);
     overflow: hidden;
