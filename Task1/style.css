@@ -51,7 +51,7 @@ nav a{
 
 #about1 h2{
     color:#ff0081;
-    font-size: 55px;
+    font-size: 50px;
 }
 #about1 p:first-child{
     font-size: 18px;
@@ -124,33 +124,29 @@ nav a{
     font-size: 30px;
 }
 
-#part22 div{
-    margin: 120px 100px 110px 50px; 
-}
 #abc2 {
     margin: 150px 0px 120px;
     position: relative;
 }
 #part21 img{
-    height: 320px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
     border-top-left-radius: 70px; 
     border-bottom-right-radius: 170px;
     border-top-right-radius:170px;
     border-bottom-left-radius: 70px;
     position: absolute;
-    top: -15%;
+    top: -20%;
     left: 10%;
 }
 #trans2{
     border: 5px solid rgb(194, 33, 167); 
-    height: 350px;
-    width: 400px;
+    height: 300px;
+    width: 340px;
     border-top-left-radius: 70px; 
     border-bottom-right-radius: 170px;
     border-top-right-radius:170px;
     border-bottom-left-radius: 70px;
-    
 }
 #part22 span{    
     color:#ff0081;
@@ -221,6 +217,7 @@ nav a{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    margin-bottom: 8px;
 }
 .review1 p{ 
     margin-top: 5px;
@@ -231,7 +228,7 @@ nav a{
     background-image: linear-gradient(45deg, #ff0081, #e400ff);
 }
 #sign2 h2{
-    padding: 50px 0px;
+    padding: 60px 0px;
     font-size: 30px;
     margin: 0;
     color: white;
@@ -242,7 +239,7 @@ nav a{
     text-decoration: none;
     margin-bottom: 20px;
     border-radius: 25px;
-    padding: 17px 26px;
+    padding: 16px 18px;
     background-color: white;
 }
 
@@ -251,7 +248,7 @@ nav a{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 650px;
+    height: 100%;
 }
 #signup1 p:first-child{
     font-size: 18px;
@@ -276,7 +273,7 @@ nav a{
 }
 
 #signup2 input{
-    width: 460px;
+    width: 100%;
     height: 50px;
     border-radius: 8px;
     font-size: 18px;
@@ -285,7 +282,7 @@ nav a{
     background-color: rgb(155, 148, 148);
 }
 #signup2 textarea{
-    width: 460px;
+    width: 100%;
     height: 120px;
     border-radius: 8px;
     border: white;
@@ -300,44 +297,25 @@ nav a{
     font-size: 16px;
 }
 
-#footer{
-    overflow: hidden;
-}
-#footer1{
-    float: left;
-    width: 33%;
-    text-align: center;
-    margin: 0;
-}
 #footer1 i{
     padding: 10px 10px;
     color: white;
     border: 1px solid black;
     border-radius: 150%;
     background-color: black;
-    margin: 80px 20px 110px;
-}
-#footer2{
-    float: left;
-    width: 33%;
-    text-align: center;
+    margin: 0px 20px;
 }
 #footer2 p:first-child{
     color: rgb(194, 33, 167);
     font-size: 50px;
-    margin:70px 0px 0px 0px;
-}
-#footer3{
-    float: left;
-    width: 33%;
+    margin-bottom: 0;
 }
 #footer3 ul{
     list-style-type: none;
-    margin-top: 100px;
 }
 #footer3 li{
     display: inline;
-    margin-right: 15px ;
+    margin-right: 15px;
 }
 #footer3 a{
     text-decoration: none;
