@@ -227,6 +227,9 @@ nav a{
 #sign1{
     background-image: linear-gradient(45deg, #ff0081, #e400ff);
 }
+#signrow{
+    margin: 0px;
+}
 #sign2 h2{
     padding: 60px 0px;
     font-size: 30px;
@@ -239,7 +242,7 @@ nav a{
     text-decoration: none;
     margin-bottom: 20px;
     border-radius: 25px;
-    padding: 16px 18px;
+    padding: 16px 16px;
     background-color: white;
 }
 
